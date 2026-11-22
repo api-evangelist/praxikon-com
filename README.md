@@ -1,4 +1,4 @@
-# praxikon-com
+# Praxikon
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-praxikon-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://praxikon.com/
+Praxikon provides AI and privacy compliance consulting services, helping organizations align with the EU GDPR, AI Act, and related regulations. Their offerings include AI-agent safety scans, privacy impact assessments, and legal advisory for AI deployments. Based in the Netherlands, Praxikon serves clients across Europe, delivering expertise in data protection, risk management, and regulatory compliance for AI systems.
+
+**Areas:** Company · AI · Privacy · Compliance · Consulting · Netherlands
+
+## Praxikon on APIs.io
+
+Everything profiled for Praxikon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/praxikon-com/](https://apis.io/providers/praxikon-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Praxikon Assessment API](https://apis.io/apis/praxikon-com/praxikon-com-assessment-api/) — Stateless, deterministic implementation-map assessment using fixed answer codes. No profile is persisted.
+- [Praxikon Changes API](https://apis.io/apis/praxikon-com/praxikon-com-changes-api/) — Material regulatory changes and their implementation impact.
+- [Praxikon Corrections API](https://apis.io/apis/praxikon-com/praxikon-com-corrections-api/) — Dated public log of substantive corrections to the knowledge layer.
+- [Praxikon Dataset API](https://apis.io/apis/praxikon-com/praxikon-com-dataset-api/) — The release description of the published dataset, and the machine-readable description of this API.
+- [Praxikon Diff API](https://apis.io/apis/praxikon-com/praxikon-com-diff-api/) — What changed in the knowledge layer between two reference points, per object, with material changes separated from editorial ones.
+- [Praxikon Enforcement API](https://apis.io/apis/praxikon-com/praxikon-com-enforcement-api/) — Designated authorities, implementing-law status and dated enforcement events per member state. Every entry carries a primary source.
+- [Praxikon Entities API](https://apis.io/apis/praxikon-com/praxikon-com-entities-api/) — Typed objects in the implementation graph.
+- [Praxikon Impact API](https://apis.io/apis/praxikon-com/praxikon-com-impact-api/) — Whether what moved in the knowledge layer touches one assessed dossier. Stateless, with no subscription and no register of who holds which manifest.
+- [Praxikon Manifest API](https://apis.io/apis/praxikon-com/praxikon-com-manifest-api/) — The Regulatory Manifest: a portable, versioned dossier object for one assessed system, computed on request and never stored. No account, no server-side…
+- [Praxikon Obligations API](https://apis.io/apis/praxikon-com/praxikon-com-obligations-api/) — Actor-linked obligations with actions, evidence and source-grounded statements.
+- [Praxikon Search API](https://apis.io/apis/praxikon-com/praxikon-com-search-api/) — Deterministic text retrieval over the published graph.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Praxikon Agentic Access](https://apis.io/agentic-access/praxikon-com/praxikon-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DatasetDescription](https://apis.io/schemas/praxikon-com/praxikon-com-dataset-description/)
+- [DiffEnvelope](https://apis.io/schemas/praxikon-com/praxikon-com-diff-envelope/)
+- [EnforcementEnvelope](https://apis.io/schemas/praxikon-com/praxikon-com-enforcement-envelope/)
+- [ImplementationSnapshot](https://apis.io/schemas/praxikon-com/praxikon-com-implementation-snapshot/)
+- [NalevingIndexEnvelope](https://apis.io/schemas/praxikon-com/praxikon-com-naleving-index-envelope/)
+- [StatusEnvelope](https://apis.io/schemas/praxikon-com/praxikon-com-status-envelope/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Praxikon Com Context](https://apis.io/jsonld/praxikon-com/praxikon-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Praxikon API Rules](https://apis.io/rules/praxikon-com/praxikon-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Praxikon Domain Security](https://apis.io/security/praxikon-com/praxikon-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://praxikon.com/)
+- [API reference](https://www.praxikon.com/nl/developers)
+- [Sign up](https://www.praxikon.com/nl/case-studies/registerplicht-algorithm-registry)
+- [Terms of service](https://www.praxikon.com/nl/legal/terms)
+- [Privacy policy](https://www.praxikon.com/nl/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 41.4** — developing · rubric 0.27.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 57.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 34.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/praxikon-com/](https://apis.io/providers/praxikon-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Praxikon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/praxikon-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
